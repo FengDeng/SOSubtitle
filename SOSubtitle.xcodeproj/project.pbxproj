@@ -14,6 +14,7 @@
 		9F1A7A3B213E650D00CFC575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A7A39213E650D00CFC575 /* LaunchScreen.storyboard */; };
 		9F1A7A44213E653700CFC575 /* SRTParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A7A43213E653700CFC575 /* SRTParse.swift */; };
 		9F1A7A48213E65B200CFC575 /* SOSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A7A47213E65B200CFC575 /* SOSubtitle.swift */; };
+		9F1A7A4A213E6B8700CFC575 /* 20180814152717897.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A7A49213E6B8700CFC575 /* 20180814152717897.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9F1A7A3C213E650D00CFC575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F1A7A43213E653700CFC575 /* SRTParse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRTParse.swift; sourceTree = "<group>"; };
 		9F1A7A47213E65B200CFC575 /* SOSubtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSubtitle.swift; sourceTree = "<group>"; };
+		9F1A7A49213E6B8700CFC575 /* 20180814152717897.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20180814152717897.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		9F1A7A2F213E650B00CFC575 /* SOSubtitle */ = {
 			isa = PBXGroup;
 			children = (
+				9F1A7A49213E6B8700CFC575 /* 20180814152717897.mp4 */,
 				9F1A7A42213E652700CFC575 /* Classes */,
 				9F1A7A30213E650B00CFC575 /* AppDelegate.swift */,
 				9F1A7A32213E650B00CFC575 /* ViewController.swift */,
@@ -155,6 +158,7 @@
 				9F1A7A3B213E650D00CFC575 /* LaunchScreen.storyboard in Resources */,
 				9F1A7A38213E650D00CFC575 /* Assets.xcassets in Resources */,
 				9F1A7A36213E650B00CFC575 /* Main.storyboard in Resources */,
+				9F1A7A4A213E6B8700CFC575 /* 20180814152717897.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -299,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -315,6 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87X96NB2YG;
 				INFOPLIST_FILE = SOSubtitle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87X96NB2YG;
 				INFOPLIST_FILE = SOSubtitle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
