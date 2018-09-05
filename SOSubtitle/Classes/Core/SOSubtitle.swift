@@ -12,7 +12,7 @@ class SOSubtitle{
     
     var text = ""//文本
     var color = UIColor.white //颜色
-    var start = 0 //开始显示时间
-    var end = 0 //结束时间
+    var start : Double = 0 //开始显示时间
+    var duration : Double = 0 //结束时间
     
 }

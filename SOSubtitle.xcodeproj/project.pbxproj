@@ -15,6 +15,9 @@
 		9F1A7A44213E653700CFC575 /* SRTParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A7A43213E653700CFC575 /* SRTParse.swift */; };
 		9F1A7A48213E65B200CFC575 /* SOSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A7A47213E65B200CFC575 /* SOSubtitle.swift */; };
 		9F1A7A4A213E6B8700CFC575 /* 20180814152717897.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A7A49213E6B8700CFC575 /* 20180814152717897.mp4 */; };
+		9F1A7A4C213F685D00CFC575 /* AVPlayerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A7A4B213F685D00CFC575 /* AVPlayerLayer.swift */; };
+		9F1A7A4E213F799200CFC575 /* AVPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A7A4D213F799200CFC575 /* AVPlayerItem.swift */; };
+		9F1A7A50213F831C00CFC575 /* ASSParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A7A4F213F831C00CFC575 /* ASSParse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		9F1A7A43213E653700CFC575 /* SRTParse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRTParse.swift; sourceTree = "<group>"; };
 		9F1A7A47213E65B200CFC575 /* SOSubtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSubtitle.swift; sourceTree = "<group>"; };
 		9F1A7A49213E6B8700CFC575 /* 20180814152717897.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20180814152717897.mp4; sourceTree = "<group>"; };
+		9F1A7A4B213F685D00CFC575 /* AVPlayerLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerLayer.swift; sourceTree = "<group>"; };
+		9F1A7A4D213F799200CFC575 /* AVPlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerItem.swift; sourceTree = "<group>"; };
+		9F1A7A4F213F831C00CFC575 /* ASSParse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASSParse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				9F1A7A47213E65B200CFC575 /* SOSubtitle.swift */,
+				9F1A7A4B213F685D00CFC575 /* AVPlayerLayer.swift */,
+				9F1A7A4D213F799200CFC575 /* AVPlayerItem.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -93,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				9F1A7A43213E653700CFC575 /* SRTParse.swift */,
+				9F1A7A4F213F831C00CFC575 /* ASSParse.swift */,
 			);
 			path = Parse;
 			sourceTree = "<group>";
@@ -170,8 +179,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F1A7A44213E653700CFC575 /* SRTParse.swift in Sources */,
+				9F1A7A4C213F685D00CFC575 /* AVPlayerLayer.swift in Sources */,
 				9F1A7A48213E65B200CFC575 /* SOSubtitle.swift in Sources */,
 				9F1A7A33213E650B00CFC575 /* ViewController.swift in Sources */,
+				9F1A7A4E213F799200CFC575 /* AVPlayerItem.swift in Sources */,
+				9F1A7A50213F831C00CFC575 /* ASSParse.swift in Sources */,
 				9F1A7A31213E650B00CFC575 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
