@@ -7,15 +7,41 @@
 //
 
 import UIKit
-
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate,LogDelegate {
 
     var window: UIWindow?
 
-
+    func logCallback(_ level: Int32, _ message: String!) {
+        print(level)
+        print(message)
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        MobileFFmpegConfig.setLogDelegate(self)
+        MobileFFmpegConfig.disableRedirection()
+        MobileFFmpegConfig.setFontDirectory("fonts", with: nil)
+        
+        let input = Bundle.main.path(forResource: "123", ofType: "mp4")!
+        let output = NSTemporaryDirectory() + "123_srt.mp4"
+        let ass = Bundle.main.path(forResource: "123", ofType: "srt")!
+        try? FileManager.default.removeItem(atPath: output)
+        //let r = MobileFFmpeg.execute("-i \(input) -i \(ass) -c copy -c:s mov_text \(output)")
+        let r = MobileFFmpeg.execute("-i \(input) -vf subtitles=\(ass) \(output)")
+        if r == RETURN_CODE_SUCCESS{
+            print("RETURN_CODE_SUCCESS")
+        }else if r == RETURN_CODE_CANCEL{
+            print("RETURN_CODE_CANCEL")
+        }else{
+            print("error")
+        }
+        DispatchQueue.global().async {
+            
+        }
+        
+        
         return true
     }
 

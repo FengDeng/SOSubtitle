@@ -18,9 +18,19 @@
 		9F1A7A4C213F685D00CFC575 /* AVPlayerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A7A4B213F685D00CFC575 /* AVPlayerLayer.swift */; };
 		9F1A7A4E213F799200CFC575 /* AVPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A7A4D213F799200CFC575 /* AVPlayerItem.swift */; };
 		9F1A7A50213F831C00CFC575 /* ASSParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A7A4F213F831C00CFC575 /* ASSParse.swift */; };
+		9F1A7A52213FC3DC00CFC575 /* 20180814152717897_subtitle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A7A51213FC3DC00CFC575 /* 20180814152717897_subtitle.mp4 */; };
+		9F1A7A582140C00B00CFC575 /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A7A572140C00B00CFC575 /* demo.mp4 */; };
+		9F1A7A5A2140C14100CFC575 /* 20180814152717897.ass in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A7A592140C14100CFC575 /* 20180814152717897.ass */; };
+		9F1A7A5D2140C30200CFC575 /* 123.ass in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A7A5B2140C30000CFC575 /* 123.ass */; };
+		9F1A7A5E2140C30200CFC575 /* 123.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A7A5C2140C30200CFC575 /* 123.mp4 */; };
+		9F1A7A602140CC0E00CFC575 /* 123.srt in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A7A5F2140CC0E00CFC575 /* 123.srt */; };
+		D531B394BC9F22E8BBAE27D5 /* Pods_SOSubtitle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD570DB9618B42755CEA0DE /* Pods_SOSubtitle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AA619407BAE0D93A005AC46 /* Pods-SOSubtitle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOSubtitle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SOSubtitle/Pods-SOSubtitle.debug.xcconfig"; sourceTree = "<group>"; };
+		33C6443245FCFAA25778887B /* Pods-SOSubtitle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOSubtitle.release.xcconfig"; path = "Pods/Target Support Files/Pods-SOSubtitle/Pods-SOSubtitle.release.xcconfig"; sourceTree = "<group>"; };
+		4CD570DB9618B42755CEA0DE /* Pods_SOSubtitle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SOSubtitle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1A7A2D213E650B00CFC575 /* SOSubtitle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOSubtitle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1A7A30213E650B00CFC575 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F1A7A32213E650B00CFC575 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +44,13 @@
 		9F1A7A4B213F685D00CFC575 /* AVPlayerLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerLayer.swift; sourceTree = "<group>"; };
 		9F1A7A4D213F799200CFC575 /* AVPlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerItem.swift; sourceTree = "<group>"; };
 		9F1A7A4F213F831C00CFC575 /* ASSParse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASSParse.swift; sourceTree = "<group>"; };
+		9F1A7A51213FC3DC00CFC575 /* 20180814152717897_subtitle.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20180814152717897_subtitle.mp4; sourceTree = "<group>"; };
+		9F1A7A532140BC3400CFC575 /* SOSubtitle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOSubtitle-Bridging-Header.h"; sourceTree = "<group>"; };
+		9F1A7A572140C00B00CFC575 /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.mp4; sourceTree = "<group>"; };
+		9F1A7A592140C14100CFC575 /* 20180814152717897.ass */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20180814152717897.ass; sourceTree = "<group>"; };
+		9F1A7A5B2140C30000CFC575 /* 123.ass */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 123.ass; sourceTree = "<group>"; };
+		9F1A7A5C2140C30200CFC575 /* 123.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 123.mp4; sourceTree = "<group>"; };
+		9F1A7A5F2140CC0E00CFC575 /* 123.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 123.srt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +58,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D531B394BC9F22E8BBAE27D5 /* Pods_SOSubtitle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15E132748063A63454B1EF97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AA619407BAE0D93A005AC46 /* Pods-SOSubtitle.debug.xcconfig */,
+				33C6443245FCFAA25778887B /* Pods-SOSubtitle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9F1A7A24213E650B00CFC575 = {
 			isa = PBXGroup;
 			children = (
 				9F1A7A2F213E650B00CFC575 /* SOSubtitle */,
 				9F1A7A2E213E650B00CFC575 /* Products */,
+				15E132748063A63454B1EF97 /* Pods */,
+				C1A4FC4B426470B3F8C118CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +95,12 @@
 		9F1A7A2F213E650B00CFC575 /* SOSubtitle */ = {
 			isa = PBXGroup;
 			children = (
+				9F1A7A5F2140CC0E00CFC575 /* 123.srt */,
+				9F1A7A5B2140C30000CFC575 /* 123.ass */,
+				9F1A7A5C2140C30200CFC575 /* 123.mp4 */,
+				9F1A7A592140C14100CFC575 /* 20180814152717897.ass */,
+				9F1A7A572140C00B00CFC575 /* demo.mp4 */,
+				9F1A7A51213FC3DC00CFC575 /* 20180814152717897_subtitle.mp4 */,
 				9F1A7A49213E6B8700CFC575 /* 20180814152717897.mp4 */,
 				9F1A7A42213E652700CFC575 /* Classes */,
 				9F1A7A30213E650B00CFC575 /* AppDelegate.swift */,
@@ -74,6 +109,7 @@
 				9F1A7A37213E650D00CFC575 /* Assets.xcassets */,
 				9F1A7A39213E650D00CFC575 /* LaunchScreen.storyboard */,
 				9F1A7A3C213E650D00CFC575 /* Info.plist */,
+				9F1A7A532140BC3400CFC575 /* SOSubtitle-Bridging-Header.h */,
 			);
 			path = SOSubtitle;
 			sourceTree = "<group>";
@@ -106,6 +142,14 @@
 			path = Parse;
 			sourceTree = "<group>";
 		};
+		C1A4FC4B426470B3F8C118CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CD570DB9618B42755CEA0DE /* Pods_SOSubtitle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F1A7A3F213E650D00CFC575 /* Build configuration list for PBXNativeTarget "SOSubtitle" */;
 			buildPhases = (
+				0A4A73AA63A3C221BFBDA593 /* [CP] Check Pods Manifest.lock */,
 				9F1A7A29213E650B00CFC575 /* Sources */,
 				9F1A7A2A213E650B00CFC575 /* Frameworks */,
 				9F1A7A2B213E650B00CFC575 /* Resources */,
+				03D5FB467C867728CFC43895 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,6 +184,7 @@
 				TargetAttributes = {
 					9F1A7A2C213E650B00CFC575 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -164,14 +211,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1A7A5D2140C30200CFC575 /* 123.ass in Resources */,
 				9F1A7A3B213E650D00CFC575 /* LaunchScreen.storyboard in Resources */,
 				9F1A7A38213E650D00CFC575 /* Assets.xcassets in Resources */,
+				9F1A7A5A2140C14100CFC575 /* 20180814152717897.ass in Resources */,
+				9F1A7A5E2140C30200CFC575 /* 123.mp4 in Resources */,
 				9F1A7A36213E650B00CFC575 /* Main.storyboard in Resources */,
+				9F1A7A602140CC0E00CFC575 /* 123.srt in Resources */,
 				9F1A7A4A213E6B8700CFC575 /* 20180814152717897.mp4 in Resources */,
+				9F1A7A582140C00B00CFC575 /* demo.mp4 in Resources */,
+				9F1A7A52213FC3DC00CFC575 /* 20180814152717897_subtitle.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03D5FB467C867728CFC43895 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SOSubtitle/Pods-SOSubtitle-frameworks.sh",
+				"${PODS_ROOT}/mobile-ffmpeg-full-gpl/mobileffmpeg.framework",
+				"${PODS_ROOT}/mobile-ffmpeg-full-gpl/libavcodec.framework",
+				"${PODS_ROOT}/mobile-ffmpeg-full-gpl/libavdevice.framework",
+				"${PODS_ROOT}/mobile-ffmpeg-full-gpl/libavfilter.framework",
+				"${PODS_ROOT}/mobile-ffmpeg-full-gpl/libavformat.framework",
+				"${PODS_ROOT}/mobile-ffmpeg-full-gpl/libavutil.framework",
+				"${PODS_ROOT}/mobile-ffmpeg-full-gpl/libswresample.framework",
+				"${PODS_ROOT}/mobile-ffmpeg-full-gpl/libswscale.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mobileffmpeg.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libavcodec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libavdevice.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libavfilter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libavformat.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libavutil.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libswresample.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libswscale.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SOSubtitle/Pods-SOSubtitle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A4A73AA63A3C221BFBDA593 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SOSubtitle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9F1A7A29213E650B00CFC575 /* Sources */ = {
@@ -326,8 +432,10 @@
 		};
 		9F1A7A40213E650D00CFC575 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA619407BAE0D93A005AC46 /* Pods-SOSubtitle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87X96NB2YG;
 				INFOPLIST_FILE = SOSubtitle/Info.plist;
@@ -338,6 +446,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaozhishi.SOSubtitle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SOSubtitle/SOSubtitle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -345,8 +455,10 @@
 		};
 		9F1A7A41213E650D00CFC575 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33C6443245FCFAA25778887B /* Pods-SOSubtitle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87X96NB2YG;
 				INFOPLIST_FILE = SOSubtitle/Info.plist;
@@ -357,6 +469,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaozhishi.SOSubtitle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SOSubtitle/SOSubtitle-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

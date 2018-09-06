@@ -17,9 +17,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let asset = AVAsset.init(url: Bundle.main.url(forResource: "20180814152717897", withExtension: "mp4")!)
+        let asset = AVAsset.init(url: Bundle.main.url(forResource: "20180814152717897_subtitle", withExtension: "mp4")!)
         let item = AVPlayerItem.init(asset: asset)
-        
+//        let mediaCga = asset.availableMediaCharacteristicsWithMediaSelectionOptions
+//        for ch in mediaCga{
+//            print(ch)
+//            let group = asset.mediaSelectionGroup(forMediaCharacteristic: ch)
+//            let a = NSLocale.init(localeIdentifier: "zh-CN")
+//            let options = AVMediaSelectionGroup.mediaSelectionOptions(from: (group?.options)!, with: a as Locale)
+//            item.select(options.first, in: group!)
+//        }
+        /*
         let subtitle1 = SOSubtitle()
         subtitle1.text = "第一条字幕"
         subtitle1.start = 0
@@ -53,7 +61,7 @@ class ViewController: UIViewController {
         layer.startDisplaySubtitle()
         self.view.layer.addSublayer(layer)
         layer.frame = self.view.bounds
-        player.play()
+        player.play()*/
         
         
     }
